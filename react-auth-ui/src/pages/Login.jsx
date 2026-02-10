@@ -6,7 +6,7 @@ import { facebookLogin, googleLogin, loginUser } from "../api/authApi";
 import { GoogleLogin } from "@react-oauth/google";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
 
-const FACEBOOK_APP_ID = "1468896701911393";
+const FACEBOOK_APP_ID = "replacefacebookappid";
 
 export default function Login() {
   const { setSession } = useAuth();
